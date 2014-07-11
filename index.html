@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jonomcleish</title>
+  <link rel="stylesheet" href="normalize.css">
+  <style>
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+    html {
+      overflow-y: scroll;
+    }
+    html, body {
+      height: 100%;
+      max-width: 100%;
+    }
+    body {
+      position: relative;
+    }
+    header {
+      background: lightgray;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    .title {
+      background: linear-gradient(to right bottom, deeppink 0, darkviolet 100%);
+      color: white;
+      height: 100%;
+      display: box;
+      box-pack: center;
+      box-align: center;
+    }
+    .title h1 {
+      font-size: 8em;
+      padding: 0 0.1em;
+    }
+    .title.son {
+      background: white;
+    }
+    .title.son span {
+      background: linear-gradient(to bottom, #27a9e1 18%, #3255a6 99%);
+      font-size: 32em;
+      font-weight: bold;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+  <script src="prefixfree.min.js"></script>
+</head>
+<body>
+  <div class='title first-title'>
+    <h1>jonomcleish</h1>
+  </div>
+  <div class='title son'>
+    <span>yolo</span>
+  </div>
+</body>
+</html>
