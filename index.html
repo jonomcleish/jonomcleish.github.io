@@ -4,6 +4,7 @@
   <title>jonomcleish</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ff1493"/>
+  <meta name="description" content="An experimental world of ideas."/>
   <link rel="stylesheet" href="normalize.css">
   <style>
     *, *:before, *:after {
@@ -34,7 +35,7 @@
       box-align: center;
     }
     .title h1 {
-      font-size: 8em;
+      font-size: 4em;
       padding: 0 0.1em;
     }
     .title.son {
@@ -42,10 +43,18 @@
     }
     .title.son span {
       background: linear-gradient(to bottom, #27a9e1 18%, #3255a6 99%);
-      font-size: 32em;
+      font-size: 12em;
       font-weight: bold;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+    @media (min-width: 992px) {
+      .title h1 {
+        font-size: 8em;
+      }
+      .title.son span {
+        font-size: 28em;
+      }
     }
   </style>
   <script src="prefixfree.min.js"></script>
