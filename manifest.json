@@ -1,0 +1,9 @@
+{
+    "name": "jonomcleish",
+    "short_name": "yolo",
+    "description": "An experimental world of ideas.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ff1493",
+    "theme_color": "#ff1493"
+}
